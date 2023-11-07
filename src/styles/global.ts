@@ -25,14 +25,29 @@ export const GlobalStyles = createGlobalStyle`
 	}
 
 	body {
-		background-color: var(--shapes-02);
+		background-color: #F0F0F5;
+		font-family: 'Saira', sans-serif;
 	}
 
 	input {
 		font-size: 0.875rem;
 	}
 	
-	button {
+	button,
+	a {
 		cursor: pointer;
+		font-family: inherit;
+		color: inherit;
+		font-size: 1rem;
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	main {
+		max-width: 70rem;
+		margin: 0 auto;
+		padding: 0 1rem;
 	}
 `;

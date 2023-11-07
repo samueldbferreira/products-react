@@ -2,12 +2,15 @@ import { Container, Content, SearchBar } from "./styles";
 import logoSVG from "../../assets/logo.svg";
 import searchSVG from "../../assets/search.svg";
 import bagSVG from "../../assets/bag.svg";
+import { Link } from "react-router-dom";
 
 const Header = () => {
 	return (
 		<Container>
 			<Content>
-				<img src={logoSVG} alt="Capputeeno" />
+				<Link to={"/"}>
+					<img src={logoSVG} alt="Capputeeno" />
+				</Link>
 
 				<div className="items">
 					<SearchBar>

@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
 export const Container = styled.header`
-	background-color: var(--shapes-01);
+	background-color: #ffffff;
 `;
 
 export const Content = styled.div`
-	max-width: 75rem;
+	max-width: 70rem;
 	margin: 0 auto;
 	padding: 1.5rem 1rem;
 	display: flex;
@@ -30,7 +30,7 @@ export const SearchBar = styled.form`
 	align-items: center;
 	justify-content: space-between;
 	padding: 0.5rem 1rem;
-	background-color: var(--background);
+	background-color: #f3f5f6;
 	border-radius: 0.5rem;
 	width: 20rem;
 
@@ -47,7 +47,7 @@ export const SearchBar = styled.form`
 		outline: none;
 		background-color: transparent;
 		flex: 1;
-		color: var(--text-title);
+		color: #737380;
 		font-family: "Saira", sans-serif;
 	}
 `;
